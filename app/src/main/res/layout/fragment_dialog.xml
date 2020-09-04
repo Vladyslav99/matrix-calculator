@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <RadioGroup
+        android:id="@+id/size_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/one_size_rb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:padding="20dp"
+            android:text="1"
+            android:textAlignment="textEnd"
+            android:textSize="20sp"></RadioButton>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorPrimary">
+        </View>
+
+        <RadioButton
+            android:id="@+id/two_size_rb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:padding="20dp"
+            android:text="2"
+            android:textAlignment="textEnd"
+            android:textSize="20dp">
+
+        </RadioButton>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorPrimary">
+        </View>
+
+        <RadioButton
+            android:id="@+id/three_size_rb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:padding="20dp"
+            android:text="3"
+            android:textAlignment="textEnd"
+            android:textSize="20dp">
+
+        </RadioButton>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/colorPrimary">
+        </View>
+
+        <RadioButton
+            android:id="@+id/four_size_rb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:padding="20dp"
+            android:text="4"
+            android:textAlignment="textEnd"
+            android:textSize="20dp">
+
+        </RadioButton>
+
+
+    </RadioGroup>
+
+</LinearLayout>

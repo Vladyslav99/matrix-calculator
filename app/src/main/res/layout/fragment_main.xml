@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/fill_a_matrix_btn"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="@string/a_matrix"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"></Button>
+
+        <Button
+            android:id="@+id/fill_b_matrix_btn"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="@string/b_matrix"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"></Button>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/a_sum_b_btn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:padding="8dp"
+        android:text="@string/a_sum_b"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"></Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/a_sub_b_btn"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="@string/a_sub_b"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"></Button>
+
+        <Button
+            android:id="@+id/b_sub_a_btn"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="@string/b_sub_a"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/a_mult_b_btn"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="@string/a_mult_b"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"></Button>
+
+        <Button
+            android:id="@+id/b_mult_a_btn"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="@string/b_mult_a"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/a_determinant_btn"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="@string/a_determinant"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"></Button>
+
+        <Button
+            android:id="@+id/b_determinant_btn"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="@string/b_determinant"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"></Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/a_reverse_btn"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="@string/a_rev"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"></Button>
+
+        <Button
+            android:id="@+id/b_reverse_btn"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="1"
+            android:padding="8dp"
+            android:text="@string/b_rev"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"></Button>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/test_yourself_btn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:padding="8dp"
+        android:text="Test yourself"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"></Button>
+
+</LinearLayout>

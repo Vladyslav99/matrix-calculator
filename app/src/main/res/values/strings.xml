@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Matrix Calculator</string>
+    <string name="a_matrix">A</string>
+    <string name="b_matrix">B</string>
+    <string name="a_sum_b">A + B</string>
+    <string name="a_sub_b">A - B</string>
+    <string name="b_sub_a">B - A</string>
+    <string name="a_mult_b">A * B</string>
+    <string name="b_mult_a">B * A</string>
+    <string name="a_determinant">Determinant(A)</string>
+    <string name="b_determinant">Determinant(B)</string>
+    <string name="a_rev">Inverse(A)</string>
+    <string name="b_rev">Inverse(B)</string>
+    <string name="save">Save</string>
+    <string name="nullable_matrix">Nullable matrix</string>
+    <string name="next">Next question</string>
+
+    <string name="first_question">Which of the following matrices could be added or subtracted?</string>
+        <string name="answer11">a) A(3x3), B(4x3)</string>
+        <string name="answer12">b) A(2x3), B(3x2)</string>
+        <string name="answer13">c) A(4x4), B(4x3)</string>
+        <string name="answer14">d) There is no correct answer</string>
+
+    <string name="second_question">Which of the following definitions are correct for matrix multiplication</string>
+        <string name="answer21">a) We can multiply matrices only when the number of A columns is equals to the number of B columns</string>
+        <string name="answer22">b) We can multiply matrices only when the number of A columns is equals to the number of B rows</string>
+        <string name="answer23">c) We can multiply matrices only when the number of B columns is equals to the number of A columns</string>
+        <string name="answer24">d) We can multiply matrices of any sizes</string>
+
+    <string name="third_question">How do we add matrices?</string>
+        <string name="answer31">a) We sum elements which are located at the same position in both matrices</string>
+        <string name="answer32">b) We multiply elements which are located at the same position in both matrices</string>
+        <string name="answer33">c) We sum all rows of A-matrix with all columns of B-matrix</string>
+        <string name="answer34">d) We subtract all columns of B-matrix with all rows of B-matrix</string>
+
+    <string name="fourth_question">Will we get another or same result, if we sum two same-size matrices?</string>
+        <string name="answer41">a) Another</string>
+        <string name="answer42">b) Same</string>
+        <string name="answer43">c) It is hard to predict</string>
+        <string name="answer44">d) We can not add matrices</string>
+
+    <string name="fifth_question">Will we get another or same result, if we multiply two same-size matrices?</string>
+        <string name="answer51">a) It is hard to predict</string>
+        <string name="answer52">b) We can not multiply matrices</string>
+        <string name="answer53">c) Same</string>
+        <string name="answer54">d) Another</string>
+
+    <string name="sixth_question">We can find determinant of the following matrices:</string>
+        <string name="answer61">a) A(2x3), B(3x4), C(4x4)</string>
+        <string name="answer62">b) A(3x3), B(4x3), C(2x2)</string>
+        <string name="answer63">c) A(2x2), B(4x4), C(3x3)</string>
+        <string name="answer64">d) We can find determinant of all-size matrices</string>
+
+    <string name="seventh_question">You want to find inverse matrix. Which matrix determinant does not allow you to do this?</string>
+        <string name="answer71">a) Determinant = 5</string>
+        <string name="answer72">b) Determinant = 0</string>
+        <string name="answer73">c) Determinant = -7</string>
+        <string name="answer74">d) All values allow to find inverse matrix</string>
+
+    <string name="eighth_question">Rate this app</string>
+        <string name="answer81">a) I do not like it, completely useless app</string>
+        <string name="answer82">b) I like it, but it could be better</string>
+        <string name="answer83">c) Very useful application</string>
+        <string name="answer84">d) The best application I have ever seen</string>
+</resources>
